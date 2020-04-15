@@ -1,4 +1,4 @@
 $(function(){
-  $('#typo').css('transform','rotate(10deg)');
+  $('#typo').css('color','#ebc000');
 
 });
