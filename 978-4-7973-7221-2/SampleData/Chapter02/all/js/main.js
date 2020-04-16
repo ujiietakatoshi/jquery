@@ -1,10 +1,17 @@
 $(function(){
-  $('#typo').on('click', function(){
-      $('#typo .inner').animate({
-              opacity: 0,
-              fontSize: '0px'
-          },
-          1500
-      );
-  });
+$('#typo')
+.on('mouseover',function(){
+$('#typo').stop(true).animate({
+  backgroundColor:'#ae5e9b'
+},
+500
+);
+})
+.on('mouseout',function(){
+$('#typo').stop(true).animate({
+  backgroundColor:'#3498db'
+},
+500
+);
+});
 });
